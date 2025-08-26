@@ -71,7 +71,7 @@ The testbench will automatically perform the following steps:
 Beyond running the main test program, the design's modularity allows you to test each component individually.
 
 ### Interactive "Forcing" in the Simulator
-As you mentioned, you can test submodules like the ALU directly within the main simulation. This is a great way to do quick "what-if" checks without writing a new testbench.
+As we need, we can test submodules like the ALU directly within the main simulation. This is a great way to do quick "what-if" checks without writing a new testbench.
 
 1.  **Run the main simulation** in your tool (like Vivado).
 2.  In the **Scope** window, navigate down into the CPU instance (`uut`) and find the module you want to test (e.g., `uut.alu_unit`).
